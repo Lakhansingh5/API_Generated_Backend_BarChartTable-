@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main {
+  display: grid;
+  justify-content: center;
+  background-color: #dceccf;
+}
+
+.circle {
+  width: 200px; /* Adjust the width and height of the circle */
+  height: 200px; /* Adjust the width and height of the circle */
+  border-radius: 50%; /* This creates the circle shape */
+  background-color: #dceccf; /* Background color of the circle */
+  display: grid;
+  align-items: center;
+  background-color: white;
+  margin-left: 420px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 24px;
+  font-weight: 500;
+
+}
+
+.search-panel {
+  display: flex;
+  gap: 100px;
+  margin-left: 200px;
+}
+
+.search-bar {
+  width: 30%; /* Adjust the width of the search bar */
+  padding: 8px; /* Add padding for better appearance */
+  margin-top: 20px; /* Adjust margin top as needed */
+  border: 1px solid #888; /* Add border for better visibility */
+  border-radius: 20px; /* Add border radius for better appearance */
+  box-sizing: border-box;
+  background-color: #fdce82;
+}
+
+.month {
+  background-color: #fdce82;
+  width: 30%; /* Adjust the width of the search bar */
+  padding: 8px; /* Add padding for better appearance */
+  margin-top: 20px; /* Adjust margin top as needed */
+  border: 1px solid #888; /* Add border for better visibility */
+  border-radius: 20px; /* Add border radius for better appearance */
+  box-sizing: border-box;
+  background-color: #fdce82;
+}
+
