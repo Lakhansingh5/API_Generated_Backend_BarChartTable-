@@ -90,9 +90,9 @@ function App() {
   return (
     <>
       <div className="main gap-10 h-full" >
-        {/* <div className="circle">
+        <div className="circle">
           <h1> Transaction Dashboard</h1>
-        </div> */}
+        </div>
 
         <div className="search-panel mb-4 h-fit" >
           <input
